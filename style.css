@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+}
+#img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+    object-fit: contain;
+}
+#heartIcon{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    transform: translate(-50%,-50%);
+    transition: all 4s ;
+}
+#icon{
+    font-size: 3rem;
+    color: white;
+}
